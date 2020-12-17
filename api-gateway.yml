@@ -1,0 +1,19 @@
+zuul:
+  sensitiveHeaders: Cookie, Set-Cookie
+  ignoredServices: *
+  routes: 
+    user:
+      path: /user/**
+      serviceId: api-user
+      stripPrefix: false
+    auth:
+      path: /oauth/**
+      serviceId: api-user
+      stripPrefix: false
+    loan:
+      path: /loan/**
+      serviceId: api-loan
+      stripPrefix: false
+oauth2:
+  jwt:
+    secret: json-secret    

@@ -1,5 +1,5 @@
 zuul:
-  sensitiveHeaders: Cookie, Set-Cookie
+  sensitiveHeaders: Cookie,Set-Cookie
   ignoredServices: *
   routes: 
     user:

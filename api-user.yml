@@ -1,11 +1,10 @@
 spring:
-	jpa:
+  jpa:
     hibernate:
-      ddl-auto: validate
-		properties:
+     ddl-auto: validate
+    properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
-
 
 oauth2:
   client:

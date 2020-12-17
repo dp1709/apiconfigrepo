@@ -1,6 +1,6 @@
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie
-  ignoredServices: *
+  ignoredServices: '*'
   routes: 
     user:
       path: /user/**

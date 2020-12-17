@@ -1,0 +1,15 @@
+spring:
+	jpa:
+    hibernate:
+      ddl-auto: validate
+		properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+
+oauth2:
+  client:
+    id: api-project
+    secret: api-project
+  jwt:
+    secret: json-secret    
